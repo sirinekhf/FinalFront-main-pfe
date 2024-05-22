@@ -1,0 +1,278 @@
+.page-details{
+    background: linear-gradient(
+    to right,
+    hsla(165, 57%, 82%, 1) 0%,
+    hsla(2, 67%, 92%, 1) 50%,
+    hsla(237, 94%, 88%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    to right,
+    hsla(165, 57%, 82%, 1) 0%,
+    hsla(2, 67%, 92%, 1) 50%,
+    hsla(237, 94%, 88%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    to right,
+    hsla(165, 57%, 82%, 1) 0%,
+    hsla(2, 67%, 92%, 1) 50%,
+    hsla(237, 94%, 88%, 1) 100%
+  );
+    height: auto;
+    padding: 50px 0;
+    padding-top: 10%;
+}
+.page-details .slider-container{
+    margin: 0;  
+    margin-bottom: 20px;
+    padding: 15px 30px;
+}
+.deliver{
+    display: flex;
+}
+.livraison {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.livraison h2 {
+  font-size: 15px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgb(3 0 71 / 9%);
+  padding-bottom: 10px;
+  color: #000;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.livraison p {
+  font-size: 12px;
+  font-weight: 400;
+  padding: 20px 0;
+  padding-right: 10px;
+}
+.livraison img{
+  width: 30%;
+}
+
+
+/* --------------- productDetails --------------- */
+
+.productDetails{
+  display: flex;
+  width: 100%;
+  color: black;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: rgba(38, 30, 182, 0.09) 0px 1px 3px;
+  margin-bottom: 20px;
+  padding: 30px;
+}
+
+.product-cover img{
+  width: 200px;
+  margin-right: 20px;
+}
+.details p{
+  background-color: rgb(27	,148	,118);
+  height: max-content;
+  width: max-content;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 10px;
+  padding: 3px 10px;
+  font-weight: 100;
+  margin-bottom: 3px;
+}
+.details{
+  display: flex;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgb(3 0 71 / 9%);
+} 
+.productDetails .price{
+  bottom: 10px;
+}
+
+.price > p {
+  font-family: 'Lato', sans-serif !important;
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+  font-weight: 600;
+  font-size: larger ;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.price span{
+  color: rgb(197, 17, 17);
+  font-size:12px;
+  font-weight: 100;
+  
+}
+.add-btn{
+    width: 100%;
+    margin-top: 20px;
+}
+.price svg{
+    font-size: 30px;
+    margin-bottom: 3px;
+}
+
+/* --------------- Fiche technique --------------------- */
+.ficheTech{
+    display: block;
+    width: 100%;
+    color: black;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: rgba(38, 30, 182, 0.09) 0px 1px 3px;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+.ficheTech h4{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 1px solid rgb(3 0 71 / 9%);
+    padding: 10px;
+    padding-top: 2px;
+}
+
+.ficheTech div span{
+  font-weight: 600;
+  font-size: 15px;
+  padding-right: 5px;
+  color: #292929;
+}
+.ficheTech div p{
+  margin-bottom: 0;
+  font-size: 15px;
+  color: #292929;
+}
+
+.details-tab{
+  margin: 10px 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 7px;
+  padding: 10px 0;
+  width: 97%;
+  height: 90%;
+  float: right;
+  
+}
+
+.details-tab h3{
+  border-bottom: 1px solid #e0e0e0;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #525252;
+}
+.details-tab div{
+  padding: 3px 10px;
+}
+/*----------------- MODAL CSS -----------------------*/
+body.active-modal {
+  overflow-y: hidden;
+}
+.modal-refus, .overlay2 {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 9999;
+}
+.overlay2 {
+  background: rgba(224, 224, 224,0.9);
+}
+.modal-content h4{
+  text-align: center;
+}
+.modal-content{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  width: 700px;
+  height: 150px;
+  background-color: #fff !important;
+  padding: 10px 20px;
+  border-radius: 10px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.modal-content .btn-close{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  border: none;
+  color: red;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 17px;
+}
+
+
+.modal-content2 h4{
+  text-align: center;
+}
+.modal-content2{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  width: 600px;
+  height: max-content;
+  background-color: #fff !important;
+  padding: 10px 20px;
+  border-radius: 10px !important;
+  display: block;
+  z-index: 9999;
+}
+.modal-content2 .add-btn{
+  width: max-content !important;
+  padding: 10px 18px !important;
+  margin-bottom: 10px !important;
+} 
+.modal-content2 .btn-close{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  border: none;
+  color: red;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 17px;
+}
+.variantes{
+  margin-top: 10%;
+  max-height: 200px;
+  overflow: auto;
+}
+.variantes .radios{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-left: 5%;
+}
+.variantes .radios input{
+ 
+  margin-right: 5%;
+}
+.radios span{
+  margin-left: 17px !important;
+}

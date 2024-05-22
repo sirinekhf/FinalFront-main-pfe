@@ -1,0 +1,43 @@
+footer {
+  background-color: #525252;
+  padding: 50px 0;
+  color: #fff;
+  
+}
+footer h2 {
+    font-family: 'JosefinSans',sans-serif !important;;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+footer p {
+  font-size: 14px;
+  font-weight: 300;
+  opacity: 0.5;
+  margin-bottom: 20px;
+}
+footer ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+footer li {
+  margin-bottom: 10px;
+  opacity: 0.8;
+  color: #fff;
+  margin-top: -10px;
+}
+footer a{
+    text-decoration: none;
+}
+footer a:hover li{
+  border-bottom: 1px solid #fff;
+  width: max-content;
+}
+footer svg{
+    margin-right: 20px;
+    font-size: 30px;
+}
+footer svg:hover{
+    transition: 0.5s;
+    font-size: 35px;
+}

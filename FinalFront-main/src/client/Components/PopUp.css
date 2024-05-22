@@ -1,0 +1,151 @@
+/*----------------- MODAL CSS -----------------------*/
+body.active-modal {
+  overflow-y: hidden;
+}
+.modal-panier, .overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 9999;
+}
+.overlay {
+  background: rgba(224, 224, 224,0.9);
+}
+.modal-content-panier h4{
+  text-align: left;
+  font-size: 30px;
+}
+.modal-content-panier{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  width: 500px;
+  height: max-content;
+  background-color: #fff !important;
+  padding: 0;
+  border-radius: 10px !important;
+  display: block;
+  padding: 30px;
+  z-index: 99999;
+}
+
+.modal-content-panier .btn-ok{
+ background-color: #3d3d3d;
+ color: #fff;
+ border: transparent;
+ padding: 7px 12px;
+ margin-right: 10px;
+ border-radius: 3px;
+}
+
+
+
+/* .pop{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modalBackground {
+  position: fixed;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #a3a3a3bb !important;
+  backdrop-filter: blur(5px);
+  width: 100%; 
+  height: 150%; 
+  z-index: 99999;
+  padding-top: 5%;
+}
+  
+.modalContainer {
+  width: 500px;
+  height: 500px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.modalBackground .title {
+  display: inline-block;
+  text-align: center;
+}
+
+.titleCloseBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.modalBackground .body {
+  display: block;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.modalBackground .body p:last-child{
+  font-size: 1.4rem;
+}
+
+.popup-link{
+  text-decoration: none;
+  color: #525252;
+}
+
+.modalBackground .footer {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalBackground .footer button {
+  width: 150px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+  background-color: #535ac8;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.modalBackground .footer button:hover {
+  background-color: #6870fa;
+}
+#cancelBtn {
+  background-color: #db4f4a;
+}
+#cancelBtn:hover {
+  background-color: #e2726e;
+}
+
+
+.not-connected{
+  width: 370px;
+  height: 320px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  padding: 20px;
+}
+.not-connected .body{
+  padding-top: 20px;
+} */

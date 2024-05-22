@@ -1,0 +1,12 @@
+
+.createuser-form input{
+    height: 40px;
+    width: 400px;
+    border: 1px solid #4cceac   ;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.createuser-form span{
+    font-size: 13px;
+    font-weight: 400;
+}

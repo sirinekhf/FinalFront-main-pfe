@@ -1,0 +1,123 @@
+@font-face {
+    font-family: JosefinSans;
+    src: url(../../Assets/fonts/JosefinSans-Regular.ttf);   
+    font-weight: 500;
+  }
+.categ-section{
+    width: 100%;
+    height: max-content;
+    background-color: #fff;
+    padding: 20px ;
+    border-radius: 13px;
+}
+.image-categ{
+    position: relative;
+    width: 33%;
+    border-radius: 13px;
+}
+.image-overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    border-radius: 13px;
+  }
+.image-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100%; /* Adjust the aspect ratio as needed */
+    overflow: hidden;
+    border-radius: 13px;
+}
+
+.image-overlay h1 {
+    position: absolute;
+    color: #fff;
+    top: 40%;
+    font-family: 'JosefinSans',sans-serif !important;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+.image-overlay img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+    opacity: 0.7;
+    border-radius: 13px;
+}
+
+.image-overlay:hover img {
+    transform: scale(1.1);
+   }
+.image-overlay:hover {
+   cursor: pointer;}
+
+
+
+
+
+
+
+
+/* .categ-section{
+    width: 100%;
+    height: max-content;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 13px;
+}
+.categ-section h1{
+    color: #fff;
+    font-weight: 700;   
+    font-size: 30px;
+}
+
+.image-categ{
+    position: relative;
+    border-radius: 10px;
+    border: transparent;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 30%;
+    height: 300px;
+}
+#div1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../Assets/images/peintures.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6; 
+    background-color: #000;
+  }
+  .image-categ:hover {
+    width: 31%;
+    height: 320px;
+    transition: 1s all ease-out;
+    cursor: pointer;
+    opacity: 0.4;
+    background-color: #000;
+} */

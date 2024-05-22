@@ -1,0 +1,29 @@
+.categ-details{
+    background: #f6f9fc;
+    height: auto;
+    padding: 50px 0;
+    padding-top: 10%;
+}
+.categ-details .category {
+    box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
+    background-color: #fff;
+    width: 100%;
+    height:50vh;
+    max-height: 80vh;
+    overflow: auto;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    margin-top: 5px;
+    position: relative;
+    margin-bottom: 60px;
+  }
+  .fixed-div{
+    position: sticky;
+    z-index: 200;
+  } 
+
+  .column-content {
+    position: relative;
+    min-height: 100%; /* Ensure the column occupies the full height */
+  }

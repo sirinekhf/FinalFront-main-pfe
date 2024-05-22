@@ -1,0 +1,55 @@
+.a___{
+  color: #141414;
+  color: hsl(0, 0%, 16%);
+  color: #3d3d3d;
+  color: #525252;
+  color: #666666;
+  color: #858585;
+  color: #a3a3a3;
+  color: #c2c2c2;
+  color: #e0e0e0;
+}
+.p___ {
+  color: #040509;
+  color: #080b12;
+  color: #0c101b;
+  color: #f2f0f0;
+  color: #141b2d;
+  color: #1F2A40;
+  color: #727681;
+  color: #a1a4ab;
+  color: #d0d1d5;
+}
+.greenAccent {
+  color: #0f2922;
+  color: #1e5245;
+  color: #2e7c67;
+  color: #3da58a;
+  color: #4cceac;
+  color: #70d8bd;
+  color: #94e2cd;
+  color: #b7ebde;
+  color: #dbf5ee;
+}
+.redAccent {
+  color: #2c100f;
+  color: #58201e;
+  color: #832f2c;
+  color: #af3f3b;
+  color: #db4f4a;
+  color: #e2726e;
+  color: #e99592;
+  color: #f1b9b7;
+  color: #f8dcdb;
+}
+.blueAccent{
+  color: #151632;
+  color: #2a2d64;
+  color: #3e4396;
+  color: #535ac8;
+  color: #6870fa;
+  color: #868dfb;
+  color: #a4a9fc;
+  color: #c3c6fd;
+  color: #e1e2fe;
+}

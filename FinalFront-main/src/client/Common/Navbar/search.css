@@ -1,0 +1,34 @@
+.searchbar .form-control{
+  position: relative;
+  margin-left: 100px;
+  width: 400px;
+  border: 1px solid #2e7c67;
+}
+.searchbar button{
+  background-color: #2e7c67 !important;
+  color: #fff;
+}
+.searchbar button:hover{
+  background-color: #3da58a !important;
+}
+
+.results-list{
+  position: absolute;
+  width: 350px;
+  margin-left: 9%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 8px #ddd;
+  /* margin-top: 0.5rem; */
+  max-height: 300px;
+  overflow-y: scroll;
+  
+}
+.search-result{
+    padding: 10px 20px;
+}
+.search-result:hover{
+    background-color: #efefef;
+    cursor: pointer;
+}
